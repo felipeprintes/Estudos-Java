@@ -3,6 +3,15 @@ public class Candidatos {
 
 	private String nome;
 	private double numero;
+	private String resposta;
+	
+	public String setResposta(String resposta){
+		return this.resposta = resposta;
+	}
+	
+	public String getResposta(){
+		return resposta;
+	}
 	
 	public String getNome() {
 		return nome;
